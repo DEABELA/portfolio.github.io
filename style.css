@@ -436,9 +436,9 @@
                         padding-left: 11rem;
                         bottom: 3rem;
                     }
-                    @media(max-width:468px) {
+                    @media only screen and(max-width:468px) {
                         .container {
-                            padding: auto;
+                            padding-right: 5rem;
                         }
                     }
                 }
