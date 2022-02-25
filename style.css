@@ -381,7 +381,7 @@
         bottom: 3rem;
     }
     
-    @media (max-width:767px) {
+    @media all and(max-width:767px) {
         .wrap {
             width: 70%;
             position: relative;
