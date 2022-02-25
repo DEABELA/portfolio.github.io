@@ -43,7 +43,7 @@
                 }
                 
                 .menu-container a:hover {
-                    color: #0a51a2;
+                    color: #70C7C3;
                 }
                 
                 .menu-container input {
@@ -107,7 +107,7 @@
                 }
                 /* mobile styles */
                 
-                @media only screen and (max-width: 468px) {
+                @media only screen and (max-width: 768px) {
                     .menu-container {
                         flex-direction: column;
                         align-items: flex-end;
@@ -142,7 +142,7 @@
                 }
                 /* desktop styles */
                 
-                @media (min-width: 468px) {
+                @media (min-width: 768px) {
                     .menu-container {
                         width: 100%;
                     }
@@ -213,12 +213,6 @@
                     }
                 }
                 
-                @media (max-width:468px) {
-                    .background--custom {
-                        display: none;
-                    }
-                }
-                
                 .wrap {
                     width: 70%;
                     margin: auto;
@@ -278,22 +272,19 @@
                     bottom: 3rem;
                 }
                 
-                .social-links h3 {
-                    padding-left: 6rem;
-                }
-                
-                @media(max-width:412px) {
+                @media only screen and (max-width:767px) {
                     .wrap {
                         width: 70%;
                         position: relative;
                         margin-bottom: 0rem;
-                        margin-top: -2rem;
+                        margin-left: 2rem;
+                        margin-top: -1rem;
                     }
                     .area {
                         width: 480%;
                         position: relative;
                         height: 380%;
-                        right: 67rem;
+                        right: 70rem;
                     }
                     .stretch {
                         width: 100%;
@@ -301,88 +292,29 @@
                     }
                     .display-position {
                         position: absolute;
-                        top: 440px;
-                        left: -25px;
+                        top: 490px;
+                        margin-left: 7rem;
+                        left: -15px;
                         color: #cdcdcd;
                         font-family: 'Hind Madurai', helvetica, arial, sans-serif;
                     }
                     .disph h1 {
                         position: absolute;
-                        top: -40px;
-                        right: 50px;
+                        top: 0px;
+                        margin-left: 15rem;
+                        right: -40px;
                         color: #70C7C3;
                         font-family: 'Nunito', sans-serif;
                     }
                     p {
                         color: rgb(255, 255, 255);
                     }
-                    .icon {
-                        width: 16px;
-                        height: 16px;
-                        padding: 0;
-                        margin: 0;
-                        vertical-align: middle;
-                    }
-                    .btn-group {
-                        padding-left: 11rem;
-                        bottom: 3rem;
-                    }
-                }
-                
-                @media(orientation:landscape) {
-                    html {
-                        font-size: smaller;
-                    }
-                }
-                
-                @media(max-width:1396px) {
-                    .display-position {
-                        position: absolute;
-                        top: 250px;
-                        left: 75px;
-                        color: #cdcdcd;
-                        font-family: 'Hind Madurai', helvetica, arial, sans-serif;
-                    }
-                    .disph h1 {
-                        position: absolute;
-                        top: -240px;
-                        right: -90px;
-                        color: #70C7C3;
-                        font-family: 'Nunito', sans-serif;
-                    }
-                    p {
-                        color: rgb(255, 255, 255);
-                    }
-                    .icon {
-                        width: 16px;
-                        height: 16px;
-                        padding: 0;
-                        margin: 0;
-                        vertical-align: middle;
-                    }
-                    .btn-group {
-                        padding-left: 11rem;
-                        bottom: 3rem;
-                    }
-                }
-                
-                @media(max-width:1560px) {
-                    .display-position {
-                        position: absolute;
-                        top: 250px;
-                        left: 75px;
-                        color: #cdcdcd;
-                        font-family: 'Hind Madurai', helvetica, arial, sans-serif;
-                    }
-                    .disph h1 {
-                        position: absolute;
-                        top: -240px;
-                        right: -90px;
-                        color: #70C7C3;
-                        font-family: 'Nunito', sans-serif;
-                    }
-                    p {
-                        color: rgb(255, 255, 255);
+                    .contact {
+                        background-color: #545454;
+                        padding: 15px;
+                        max-width: 230px;
+                        margin: 20px 20px;
+                        max-height: 100px;
                     }
                     .icon {
                         width: 16px;

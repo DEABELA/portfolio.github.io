@@ -25,7 +25,6 @@ ul {
 }
 
 .footer {
-    color: #000000;
     background-color: #000000;
     padding: 70px 0;
 }
@@ -71,7 +70,7 @@ ul {
 }
 
 .footer-col ul li a:hover {
-    color: #0a51a2;
+    color: #70C7C3;
     padding-left: 8px;
 }
 
@@ -90,7 +89,7 @@ ul {
 
 .footer-col .social-links a:hover {
     color: #24262b;
-    background-color: #0a51a2;
+    background-color: #ffffff;
 }
 
 
