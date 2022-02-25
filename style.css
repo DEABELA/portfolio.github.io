@@ -282,7 +282,7 @@
                     padding-left: 6rem;
                 }
                 
-                @media(max-width:468px) {
+                @media(max-width:412px) and(375px) {
                     .wrap {
                         width: 70%;
                         position: relative;
@@ -332,5 +332,67 @@
                 @media(orientation:landscape) {
                     html {
                         font-size: smaller;
+                    }
+                }
+                
+                @media(max-width:1396px) {
+                    .display-position {
+                        position: absolute;
+                        top: 250px;
+                        left: 75px;
+                        color: #cdcdcd;
+                        font-family: 'Hind Madurai', helvetica, arial, sans-serif;
+                    }
+                    .disph h1 {
+                        position: absolute;
+                        top: -240px;
+                        right: -90px;
+                        color: #70C7C3;
+                        font-family: 'Nunito', sans-serif;
+                    }
+                    p {
+                        color: rgb(255, 255, 255);
+                    }
+                    .icon {
+                        width: 16px;
+                        height: 16px;
+                        padding: 0;
+                        margin: 0;
+                        vertical-align: middle;
+                    }
+                    .btn-group {
+                        padding-left: 11rem;
+                        bottom: 3rem;
+                    }
+                }
+                
+                @media(max-width:1555px) {
+                    .display-position {
+                        position: absolute;
+                        top: 250px;
+                        left: 75px;
+                        color: #cdcdcd;
+                        font-family: 'Hind Madurai', helvetica, arial, sans-serif;
+                    }
+                    .disph h1 {
+                        position: absolute;
+                        top: -240px;
+                        right: -90px;
+                        color: #70C7C3;
+                        font-family: 'Nunito', sans-serif;
+                    }
+                    p {
+                        color: rgb(255, 255, 255);
+                    }
+                    .icon {
+                        width: 16px;
+                        height: 16px;
+                        padding: 0;
+                        margin: 0;
+                        vertical-align: middle;
+                    }
+                    .btn-group {
+                        padding-left: 11rem;
+                        bottom: 3rem;
                     }
                 }
