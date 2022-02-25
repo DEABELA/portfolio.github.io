@@ -49,7 +49,7 @@ ul {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e91e63;
+    background-color: #cdcdcd;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -62,16 +62,16 @@ ul {
 .footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
-    color: #ffffff;
+    color: ;
     text-decoration: none;
     font-weight: 300;
-    color: #bbbbbb;
+    color: #ffffff;
     display: block;
     transition: all 0.3s ease;
 }
 
 .footer-col ul li a:hover {
-    color: #ffffff;
+    color: #0a51a2;
     padding-left: 8px;
 }
 
@@ -90,7 +90,7 @@ ul {
 
 .footer-col .social-links a:hover {
     color: #24262b;
-    background-color: #ffffff;
+    background-color: #0a51a2;
 }
 
 
