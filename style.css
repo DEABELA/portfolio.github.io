@@ -285,7 +285,7 @@
         color: #0a51a2;
     }
     
-    @media (max-width:991px) {
+    @media (max-width:767px) {
         .footer-clean .item.social>a {
             margin-top: 40px;
         }
