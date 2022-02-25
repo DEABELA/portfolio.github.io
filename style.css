@@ -324,7 +324,13 @@
                         vertical-align: middle;
                     }
                     .btn-group {
-                        padding-left: 11rem;
+                        padding-left: 12rem;
                         bottom: 3rem;
                     }
+                }
+                
+                .display-position span {
+                    font-family: 'Nunito', sans-serif;
+                    color: #70C7C3;
+                    font-size: larger;
                 }
